@@ -221,16 +221,16 @@ You may ask for help and discuss various other issues on the
 '''
 
 setup(
-    name =          'Markdown',
+    name =          'secure-Markdown',
     version =       version,
-    url =           'http://packages.python.org/Markdown/',
+    url =           'https://github.com/waylan/Python-Markdown/issues/186',
     download_url =  'http://pypi.python.org/packages/source/M/Markdown/Markdown-%s.tar.gz' % version,
     description =   'Python implementation of Markdown.',
     long_description = long_description,
     author =        'Manfred Stienstra, Yuri takhteyev and Waylan limberg',
     author_email =  'markdown [at] freewisdom.org',
-    maintainer =    'Waylan Limberg',
-    maintainer_email = 'waylan [at] gmail.com',
+    maintainer =    'Philipp Hagemeister',
+    maintainer_email = 'phihag@phihag.de',
     license =       'BSD License',
     packages =      ['markdown', 'markdown.extensions'],
     scripts =       ['bin/%s' % SCRIPT_NAME],
